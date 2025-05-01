@@ -63,6 +63,8 @@ This project demonstrates a simple web application using the Google Agent Develo
 1.  **Navigate to the app directory:**
     ```bash
     cd app
+    export SSL_CERT_FILE=$(python3 -m certifi)
+    adk web
     ```
 
 2.  **Start the FastAPI server:**
